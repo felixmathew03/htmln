@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Patua+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image-header.jpg");
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+    color: aliceblue;
+}
+.nav{
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.c{
+    width: 70px;
+    background-color: aliceblue;
+    color: black;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+.head1{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: "Patua One", serif;
+    letter-spacing: 5px;
+}
+.material-symbols-outlined{
+    font-size: 200px;
+    font-weight: 1%;
+    transform: rotate(90deg);
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(3,75%);
+    width: 100%;
+    height: 100vh;
+
+}
+
+.g1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.d1{
+    
+    width: 50%;
+    height: auto;
+    opacity: 0.8;
+}
+.d1 h2{
+    font-size: 45px;
+    font-family: "Patua One", serif;
+}
+.d1 p{
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.d1 h4{
+    padding-top: 20px;
+    font-family: "Patua One", serif;
+}
+.g2{
+    background-image: url('image-transform.jpg');
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+.g3{
+    background-image: url('image-stand-out.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.g4{
+    background-image: url('image-graphic-design.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.d2{
+    margin-top: 45%;
+    margin-left: 15%;
+    width: 70%;
+}
+.d2 h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Patua One", serif;
+    color: rgb(4, 75, 51);
+}
+.d2 p{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: rgb(24, 101, 75);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.g5{
+    background-image: url('image-photography.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.d2 p:last-child{
+    text-align: center;
+}
+.testimonials{
+    margin-top: 910px;
+    padding-top: 130px;
+    
+}
+.div1{
+    text-align: center;
+    font-family: "Patua One", serif;
+    font-size: 11px;
+    letter-spacing: 7px;
+    color: rgb(69, 72, 75);
+}
+.div2{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.cd{
+    width: 25%;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.cd img{
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    margin-top: 70px;
+}
+.cd p{
+    width: 80%;
+    margin: 35px 32px 0;
+    color: rgb(5, 5, 58);
+}
+.cd p:last-child{
+    text-align: center;
+}
+.cd h2{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: "Patua One", serif;
+}
+.cd h3{
+    margin-top: 5px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.picg{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(1,1fr);
+    width: 100%;
+    height: 70vh;
+}
+
+.pg1{
+    background-image: url('image-gallery-milkbottles.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.pg2{
+    background-image: url('image-gallery-orange.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.pg3{
+    background-image: url('image-gallery-cone.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.pg4{
+    background-image: url('image-gallery-sugarcubes.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.foot{
+    width: 100%;
+    height: 40vh;
+    background-color: aquamarine;
+    text-align: center;
+    color: rgb(3, 50, 34);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot h3{
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 900;
+    opacity: 0.7;
+    
+}
+.hs ul{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 570px;
+    margin-top: 30px;
+}
+.icon{
+    margin-top: 70px;
+}
+.i img{
+    width: 28px;
+    height: 28px;
+}
