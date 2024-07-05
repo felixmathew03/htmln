@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav1{
+    width: 100;
+    height: 6vh;
+    background-color: rgb(139,116,86);
+    color: white;
+    text-align: center;
+    line-height: 6vh;
+    
+}
+.nav1 h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+.nav2{
+    height: 11vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+.left{
+    width: 50%;
+    
+}
+.left ul{
+    list-style-type: none;
+    line-height: 11vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left ul img{
+    margin-top: 28px;
+}
+.right{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right ul{
+    width: 60%;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 23px;
+}
+.right ul li{
+    height: 40px;
+    width: 40px;
+}
+.right ul img{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.right .sea{
+    margin-top: 18px;
+    height: 5vh;
+    border: 3px solid rgb(76, 74, 74);
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    width: 32%;
+    padding: 2px 5px;
+}
+.sea img{
+    margin-top: 7px;
+    width: 25px;
+    height: 25px;
+    
+}
+.sea h3{
+    line-height: 5vh;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5px;
+}
+.left li:hover{
+    text-decoration: underline rgb(247, 139, 61);
+    text-underline-offset:8px;
+}
+.sea:hover{
+    border: 3px solid white;
+}
+
+.right ul li:hover{
+    border-radius: 50%;
+    background-color: rgb(46, 44, 44);
+}
+.container1{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(90deg,rgb(227, 154, 205),rgb(211, 18, 156),rgb(211, 18, 156),rgb(196, 59, 155),rgb(243, 40, 182),rgb(211, 18, 156),rgb(189, 92, 160));
+}
