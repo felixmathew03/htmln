@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,21 +11,23 @@
     color: white;
     text-align: center;
     line-height: 6vh;
-    
 }
 .nav1 h4{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
 }
 
-.nav2{
+.nav2 {
+    position: sticky;
+    z-index: 5;
+    top: 0;
     height: 11vh;
     width: 100%;
     background-color: black;
     display: flex;
     justify-content: space-between;
     color: white;
-    
 }
+
 .left{
     width: 50%;
     
@@ -101,4 +104,542 @@
     width: 100%;
     height: 50vh;
     background: linear-gradient(90deg,rgb(227, 154, 205),rgb(211, 18, 156),rgb(211, 18, 156),rgb(196, 59, 155),rgb(243, 40, 182),rgb(211, 18, 156),rgb(189, 92, 160));
+    text-align: center;
+    color: black;
+    position: relative;
+}
+.cdiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    color: white;
+    height: 30vh;
+    margin-top: 2%;
+}
+.cdiv h1{
+    height: 30%;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 9vh;
+}
+.cdiv .h1{
+    height: 18%;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+.cdiv .h2{
+    height: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.cdiv .bt1{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+.cdiv button{  
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 15%;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 0%;
+    border: 1px solid rgb(253, 253, 253);
+}
+button .b1{
+    margin-left: 0;
+}
+.container2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 52vh;
+    text-align: center;
+    color: black;
+    background-color: white;
+    position: relative;
+}
+
+.con{
+    width: 58%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.con h1{
+    font-size: 36px;
+}
+.con p{
+    margin-top: 15px;
+}
+.cndiv{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.cnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 2px solid rgb(235, 137, 9);
+}
+.cndiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    color: aliceblue;
+    background: linear-gradient(90deg,rgb(227, 154, 205),rgb(211, 18, 156),rgb(211, 18, 156),rgb(196, 59, 155),rgb(243, 40, 182),rgb(211, 18, 156),rgb(189, 92, 160));
+}
+.container3{
+    width: 100%;
+    height: 62vh;
+    background-image:url(couple2.jpg) ;
+    background-position: bottom;
+   background-size: cover;
+   position: relative;
+   
+}
+.clog{
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+    position: absolute;
+    top: 5%;
+    right: 5px;
+    color: white;
+}
+.clogo{
+    border-right: 1px solid;
+    padding-right: 20px;
+}
+.clog h1{
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.txt{
+    color: aliceblue;
+    position: absolute;
+    left: 5%;
+    top: 28%;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txt h1{
+    font-size: 35px;
+}
+.txt .t1{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.txt .t2{
+    margin-top: 10px;
+}
+.bt{
+    margin-top: 30px;
+    height: 45px;
+    width: 130px;
+    font-weight: bold;
+}
+
+.container4{
+    margin-top: 10px;
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    position: relative;
+}
+.cg1{
+    background-image: url(short1.avif);
+    background-position: bottom;
+    object-fit: cover;
+    background-size: cover;
+}
+.cg2{
+    background-image: url(short2.avif);
+    background-position: bottom;
+    object-fit: cover;
+    background-size: cover;
+}
+.ppi{
+    position: absolute;
+    display: flex;
+    top: 2%;
+    right:2%;
+}
+.p1{
+    border-right: 2px solid white;
+    padding-right: 15px;
+}
+.p2{
+    margin-left: 20px;
+}
+.ppi img{
+    width: 70px;
+    height: 80px;
+}
+
+.ch{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: center;
+}
+.ch h1{
+    font-size: 45px;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 5px;
+}
+.ch p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.ch button{
+    width: 120px;
+    height: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.vdo{
+    margin-top: 65px;
+    width: 100%;
+    height: 62vh;
+    background-image:url(vdo.jpg) ;
+    background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.l{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.vbt button{
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    top: 76%;
+    left: 46%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.card1{
+    height: 100%;
+    width: 48%;
+    margin-top: 5%;
+    text-align: center;
+}
+.cimg{
+    height: 80%;
+}
+.cimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cont1{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.cont1 h2{
+    font-size: 25px;
+}
+.cont1 p{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.cont1 button{
+    margin-top: 15px;
+    width: 34%;
+    height: 45px;
+    font-weight: bold;
+    background-color: #000000;
+    color: aliceblue;
+}
+.two{
+    width: 100%;
+    height: 70vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+    background-color: rgb(190, 214, 214);
+    position: relative;
+}
+.two1{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-image: url('two3.jpg');
+    background-position: top;
+    background-size: cover;
+
+}
+.two2{
+    width: 40%;
+    color: white;
+    position: absolute;
+    top:50%;
+    left:80%;
+    transform: translate(-50%,-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+
+}
+.two2 h1{
+    font-size: 42px;
+}
+.riya{
+    margin-top: 10px;
+}
+.next {
+    font-size: 25px;
+    margin-top: 5px;
+}
+.two2 button{
+    margin-top: 25px;
+    width: 120px;
+    height: 45px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.kid{
+    width: 100%;
+    height: 65vh;
+}
+.kid1{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    line-height: 15vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kid2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80%;
+}
+.kids1{
+    background-image: url(kid1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 22%;
+    height: 100%;
+    position: relative;
+}
+.kids2{
+    background-image: url(kids3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 22%;
+    height: 100%;
+    position: relative;
+}
+.kids3{
+    background-image: url(kids.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 22%;
+    height: 100%;
+    position: relative;
+}
+.kids4{
+    background-image: url(kids2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 22%;
+    height: 100%;
+    position: relative;
+}
+.kids{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #000000;
+}
+.kids h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.zmain{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    z-index: -2;
+}
+.sub1{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 65%;
+    top: 17%;
+    bottom: 15%;
+    background-color: #b0cfdd;
+}
+.subs{
+    width: 24%;
+    margin-top: 4%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.sup{
+    font-size: 15px;
+}
+.subs h1{
+    font-size: 35px;
+}
+.subs p{
+    margin-top: 12px;
+    font-size: 21px;
+}
+.subs .button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+}
+.but1{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.but2{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 220px;
+    height: 45px;
+}
+.sub2{
+    position: absolute;
+    z-index: 1;
+    width: 48%;
+    height: 84%;
+    top: 11%;
+    left: 50%;
+    bottom: 5%;
+    background-image: url('leg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.sub3{
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    height: 46%;
+    top: 42%;
+    left: 2%;
+    bottom: 15%;
+    background-image: url('shoe.avif');
+    background-size: cover;
+    background-position: center;
+}
+.manchester{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: left;
+    
+}
+.manchester1{
+    background-image: url(backgr.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 35%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+}
+.man{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.man h1{
+    margin-bottom: 10px;
+}
+.man button{
+    height: 40px;
+    margin-top: 15px;
+}
+.man .mb1{
+    font-weight: bold;
+    width: 110px;
+}
+.man .mb2{
+    margin-left: 15px;
+    width: 180px;
+    font-weight: bold;
+}
+.manchester2{
+    width: 65%;
+    height: 100%;
+    background-image: url("pmc.webp");
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+}
+.mim{
+    margin-top: 15px;
+    margin-right: 25px;
+    border-right: 1px solid white;
+    padding-right: 25px;
+    height: 95px;
+}
+.min{
+    margin-right: 15px;
+    margin-top: 35px;
 }
