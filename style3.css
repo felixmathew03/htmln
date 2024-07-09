@@ -643,3 +643,252 @@ button .b1{
     margin-right: 15px;
     margin-top: 35px;
 }
+.grd{
+    margin-top: 20px;
+    width: 100%;
+    height: 72vh;
+    /* position: relative; */
+    background-image: url("g.avif");
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+}
+.gr1{
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+.g1{
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    width: 20%;
+    height: 55%;
+    background-image: url('shl.jpg');
+    background-size: cover;
+    background-position: right;
+}
+.g2{
+    position: absolute;
+    left: 28%;
+    top: 13%;
+    width: 26%;
+    height: 35%;
+    background-image: url('sks.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.g3{
+    position: absolute;
+    left: 26%;
+    top: 60%;
+    width: 32%;
+    height: 35%;
+    background-image: url('shb.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.g4{
+    position: absolute;
+    right: 3%;
+    top: 15%;
+    width: 30%;
+    height: 75%;
+    background-image: url('kp3.webp');
+    background-size: cover;
+    background-position: center;
+}
+.gr2{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gd{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.gd button{
+    margin-top: 15px;
+    background-color: rgb(35, 34, 34);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.spot{
+    width: 100%;
+    height: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hds{
+    height: 20%;
+    width: 100%;
+    line-height: 20vh;
+}
+.hds h2{
+   margin-left: 20px;
+}
+
+.sdiv{
+    width: 98%;
+    height: 70%;
+    margin-left: 20px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ps{
+    width: 32rem;
+    height: 24rem;
+    margin-right: 15px;
+}
+.ps1{
+    width: 100%;
+    height: 80%;
+    background-image: url(ps2.avif);
+    background-position: bottom;
+    background-size: cover
+}
+.ps2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.ps3{
+    width: 100%;
+    height: 80%;
+    background-image: url(ps4.avif);
+    background-position: bottom;
+    background-size: cover
+}
+.ps4{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.ps5{
+    width: 100%;
+    height: 80%;
+    background-image: url(ps5.avif);
+    background-position: bottom;
+    background-size: cover
+}
+.ps6{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.ps7{
+    width: 100%;
+    height: 80%;
+    background-image: url(ps7.avif);
+    background-position: bottom;
+    background-size: cover
+}
+.ps8{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.ps9{
+    width: 100%;
+    height: 80%;
+    background-image: url(ps8.avif);
+    background-position: bottom;
+    background-size: cover
+}
+.ps10{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.ps h3{
+    background-color: red;
+    width: 15%;
+}
+.txl{
+    width: 50%;
+}
+.txr{
+    width: 20%;
+}
+.athlete{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.da1{
+    width: 40%;
+    height: 100%;
+    background:linear-gradient(90deg,rgb(240, 100, 100),rgb(251, 139, 139),rgb(237, 96, 96),rgb(247, 155, 155),rgb(244, 45, 45));
+    position: relative;
+}
+.da2{
+    width: 60%;
+    height: 100%;
+    background-image: url(pa.jpg);
+    background-size:cover ;
+    background-position: top;
+}
+.atd{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.atd button{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.footer{
+    margin-top: 20px;
+    height: 62vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f1{
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    border-bottom: 1px solid white;
+    padding-bottom: 25px;
+    margin: auto 15px;
+}
+.f1 ul{
+    list-style-type: none;
+}
+.f1 li{
+    margin: 10px;
+}
+
+.fo4 ul{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pf img{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
