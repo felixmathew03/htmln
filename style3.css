@@ -749,12 +749,13 @@ button .b1{
     height: 24rem;
     margin-right: 15px;
 }
+
 .ps1{
     width: 100%;
     height: 80%;
     background-image: url(ps2.avif);
     background-position: bottom;
-    background-size: cover
+    background-size: cover;
 }
 .ps2{
     width: 100%;
@@ -767,7 +768,7 @@ button .b1{
     height: 80%;
     background-image: url(ps4.avif);
     background-position: bottom;
-    background-size: cover
+    background-size: cover;
 }
 .ps4{
     width: 100%;
@@ -780,7 +781,7 @@ button .b1{
     height: 80%;
     background-image: url(ps5.avif);
     background-position: bottom;
-    background-size: cover
+    background-size: cover;
 }
 .ps6{
     width: 100%;
@@ -793,7 +794,7 @@ button .b1{
     height: 80%;
     background-image: url(ps7.avif);
     background-position: bottom;
-    background-size: cover
+    background-size: cover;
 }
 .ps8{
     width: 100%;
@@ -806,7 +807,7 @@ button .b1{
     height: 80%;
     background-image: url(ps8.avif);
     background-position: bottom;
-    background-size: cover
+    background-size: cover;
 }
 .ps10{
     width: 100%;
